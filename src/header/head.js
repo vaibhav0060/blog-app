@@ -47,7 +47,7 @@ import fi5 from "../Images/fit/fi5.jpg";
 import fitSub from "../Images/fit/fitSub.jpg";
 import fitMain from "../Images/fit/fitMain.jpg";
 import Navv from "./Navv";
-import { Route, NavLink } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 // import Common2 from "../Component/Common/Common2";
 ///////context ///
