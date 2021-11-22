@@ -107,3 +107,126 @@ font-family: 'Open Sans', sans-serif; */
 .top-post-cat-date {
   margin: 10px 0px 10px 233px;
 }
+
+/* ///////////////////// responsive */
+
+@media (min-width: 340px) and (max-width: 620px) {
+  /* font Families  */
+  /* font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+  .common {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left {
+    width: 50%;
+    /* border: 3px solid black; */
+  }
+  .right {
+    width: 50%;
+  }
+  .blog-body {
+    display: flex;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+    width: 422%;
+    border-bottom: 3px solid #f0f0f0;
+    gap: 26px;
+  }
+  .blog-img img {
+    /* width: 50%;
+   */
+    height: 160px;
+    max-width: 275px;
+    border-radius: 9px;
+  }
+  .blog-img {
+    width: 50%;
+  }
+  /* .blog-content {
+  width: 37%;
+} */
+  .blog-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    text-align: left;
+    width: 30%;
+    gap: 15px;
+    margin-top: -6px;
+  }
+  .blog-para {
+    color: #908d8d;
+    font-size: 13px;
+  }
+  .cat-date {
+    display: flex;
+    font-size: 13px;
+    gap: 1px;
+  }
+  .cat {
+    color: #404040;
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .date {
+    color: #404040;
+    opacity: 0.64;
+  }
+  .blog-head {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 6px;
+  }
+  .cat-title {
+    text-align: left;
+    /* font: normal normal medium 40px/40px Montserrat; */
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: 3px solid #f08080;
+    /* border-bottom-width: 4px; */
+    /* border-bottom--height: 50px; */
+    width: 72px;
+    margin-left: 141px;
+    padding: 0px 0px 6px 0px;
+    margin: 85px 0px 0px 141px;
+  }
+  .top-post-head {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: 3px solid #f08080;
+    /* border-bottom-width: 4px; */
+    width: 155px;
+    margin-left: 141px;
+    padding: 0px 0px 6px 0px;
+    margin: 88px 0px 0px 141px;
+  }
+  .top-first-post-img img {
+    max-height: 259px;
+    /* width: 143px; */
+    margin: 7% 0px 0% 4%;
+    border-radius: 23px;
+  }
+  .top-first-post {
+    width: 400%;
+  }
+  .top-post-cat-date {
+    margin: 10px 0px 10px 233px;
+  }
+  .first-post-content {
+    width: 100vw;
+  }
+}

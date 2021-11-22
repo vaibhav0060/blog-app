@@ -10,7 +10,7 @@ export default function LatestStories() {
     <div className="theLatest">
       {latest.map((ele) => {
         return (
-          <Link to={`./:${ele.id}`}>
+          <Link to={`./Home/:${ele.id}`}>
             <div className=" latest-body" key={ele.id}>
               {/* <div className="">{ele.image}</div> */}
               <div className="latest-stories-content">
