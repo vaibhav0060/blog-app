@@ -1,0 +1,77 @@
+.blog-page {
+  display: flex;
+  width: 70%;
+  margin-left: 12%;
+}
+.share-clap {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  font-size: 18px;
+  font-weight: 400;
+}
+.share-clap img {
+  margin: 10px 20px -8px 20px;
+}
+.full-blog {
+  /* background-color: blueviolet; */
+  width: 70%;
+}
+/* .writer-image {
+  height: 400px;
+} */
+.full-blog-image img {
+  height: 300px;
+}
+.full-blog-desc {
+  width: 448px;
+  /* justify-content: center;
+    display: flex; */
+  margin-left: 110px;
+  margin-top: 20px;
+}
+.writer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -187px; */
+  /* gap: 20px; */
+  margin: 10px 0px 10px -187px;
+}
+.bDate {
+  font-size: 13px;
+}
+.writer-image img {
+  height: 62px;
+}
+.writtenBy {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 65px;
+}
+.clap-writer-info {
+  margin: -57px 0px 0px 148px;
+}
+.full-blog-head {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 31px 10px;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.more-from-siren {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 65px;
+  /* font-size: 13px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 65px;
+} */
+}
