@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./head.css";
 import { useState } from "react";
+import Login from "./login";
 export default function Navv() {
   let [state, setstate] = useState(false);
   return (
@@ -40,6 +41,11 @@ export default function Navv() {
             Food
           </NavLink>
         </li>
+        {/* <li> */}
+        <NavLink to="./LoginForm">
+          <Login />
+        </NavLink>
+        {/* </li> */}
         <li>
           <li className="visible " onClick={() => setstate((state = !state))}>
             <i class="fa fa-bars" aria-hidden="true"></i>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./head.css";
+import LoginForm from "./LoginForm";
 import { Context1 } from "../Component/Common/Context/Context";
 import Home from "../Component/Common/home";
 import Common from "../Component/Common/Common";
@@ -48,6 +49,7 @@ import fitSub from "../Images/fit/fitSub.jpg";
 import fitMain from "../Images/fit/fitMain.jpg";
 import Navv from "./Navv";
 import { Route } from "react-router-dom";
+// import LoginForm from "./LoginForm";
 
 // import Common2 from "../Component/Common/Common2";
 ///////context ///
@@ -500,6 +502,11 @@ export default function Head() {
           path="/Food/:id"
           exact
           render={() => <FullBlog></FullBlog>}
+        ></Route>
+        <Route
+          path="/LoginForm"
+          exact
+          render={() => <LoginForm></LoginForm>}
         ></Route>
       </Context1.Provider>
       {/* <div>{travelMain}</div> */}

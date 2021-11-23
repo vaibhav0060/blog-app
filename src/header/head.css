@@ -39,6 +39,10 @@ a {
 .visible {
   display: none;
 }
+.login p {
+  margin-top: 0px;
+  cursor: pointer;
+}
 
 /* ///////////////////// responsive */
 
