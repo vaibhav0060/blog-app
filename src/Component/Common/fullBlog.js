@@ -8,7 +8,8 @@ import { useParams } from "react-router";
 import { useState } from "react";
 import { Context1 } from "./Context/Context";
 import { useContext } from "react";
-import LatestStories from "./LatestStories";
+import Footer from "./footerFullArticle";
+// import LatestStories from "./LatestStories";
 // import TheLatest from "./TheLatest";
 // LatestStories;
 // import { useRef } from "react";
@@ -96,9 +97,10 @@ export default function FullBlog() {
             </p>
           </div>
           <p className="more-from-siren"> More From Siren - </p>
-          <LatestStories />
+          {/* <LatestStories /> */}
         </div>
       </div>
+      <Footer />
     </>
   );
 }

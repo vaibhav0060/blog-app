@@ -6,7 +6,9 @@ import { useContext } from "react";
 import TheLatest from "./TheLatest";
 import LatestArticles from "./LatestArticles";
 import LoadMore from "./loadMore";
-import LatestStoriesForHome from "./LatestStories";
+import LatestStoriesForHome from "./LatestStoriesForHome";
+// import LatestStories from "./LatestStories";
+
 import ViewMore from "./viewMore";
 import { Link } from "react-router-dom";
 // import { useState } from "react";
@@ -25,7 +27,6 @@ export default function Home() {
           <div className="home-main-img">
             {datas[3].image}
             <div className="blog-head  main-img-head ">
-              {" "}
               {datas[3].travelHead}
             </div>
             <div className="cat-date top-post-cat-date home-main-date">

@@ -50,6 +50,7 @@ export default function Common3() {
         </div>
       </div>
       <LoadMore />
+      {/* <LoadMore /> */}
     </>
   );
 }

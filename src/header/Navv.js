@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./head.css";
 import { useState } from "react";
 import Login from "./login";
+
 export default function Navv() {
   let [state, setstate] = useState(false);
   return (
@@ -13,7 +14,7 @@ export default function Navv() {
       <ul className="head">
         <li className="non-visible">
           <NavLink exact to="/Home">
-            Home{" "}
+            Home
           </NavLink>
         </li>
         <li className="non-visible">
